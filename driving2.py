@@ -1,4 +1,4 @@
-country = input('哪國人')
+country = input('哪國人 :')
 age = input('幾歲 :')
 age = int(age)
 if country == '台灣': 
@@ -11,5 +11,7 @@ elif country == '美國':
        print('你可以考駕照')
    else :
        print('不能考駕照')
+else:
+       print('只能輸入台灣跟美國')
 
     
